@@ -11,4 +11,4 @@ app.register_blueprint(client_bp, url_prefix='/')
 
 if __name__ == '__main__':
     # Cambiar el host a '0.0.0.0' para que sea accesible desde cualquier dirección IP en la red local
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run( ) #host='0.0.0.0', port=5000
